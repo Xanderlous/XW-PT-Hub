@@ -1350,6 +1350,604 @@ const FLASHCARDS = [
     topic: "Strength Training",
     question: "How does range of motion affect the moment arm in a hip hinge?",
     answer: "The greater the range of motion (more forward lean), the longer the moment arms at the hip and spine become. A shallow hinge has short moment arms and is relatively easy; a deep hinge dramatically increases the torque demands on the posterior chain."
+  },
+
+  // Chapter 2.3 — Anatomy of the Lower Body
+
+  // Movement Terms
+  {
+    id: 122, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Movement Terms",
+    question: "What is flexion?",
+    answer: "Bending or rounding a joint — decreasing the angle between body segments. Examples: bending the elbow (biceps curl), bringing the knee to the chest, forward flexion of the spine."
+  },
+  {
+    id: 123, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Movement Terms",
+    question: "What is extension?",
+    answer: "Lengthening or straightening a joint — increasing the angle between body segments. Examples: straightening the arm (triceps extension), standing up from a squat (simultaneous hip and knee extension)."
+  },
+  {
+    id: 124, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Movement Terms",
+    question: "What is internal (endo) rotation?",
+    answer: "Rotation of a limb inward toward the midline. Example: when the left hip internally rotates, the left knee turns toward the right. Also called endorotation."
+  },
+  {
+    id: 125, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Movement Terms",
+    question: "What is external (exo) rotation?",
+    answer: "Rotation of a limb outward away from the midline. Example: the infraspinatus rotates the upper arm outward at the shoulder. Memory tip: 'your ex goes OUT — external rotation.'"
+  },
+  {
+    id: 126, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Movement Terms",
+    question: "What is abduction?",
+    answer: "Moving a limb away from the body's midline. Example: lifting the leg sideways, or raising the arm out to the side. Memory tip: 'abduction has the b of buttocks — the abductor machine trains the glutes (gluteus medius).'"
+  },
+  {
+    id: 127, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Movement Terms",
+    question: "What is adduction?",
+    answer: "Moving a limb toward or across the body's midline. Example: the lat pulldown (adduction of the upper arm by the lats), or the adductor machine (inner thigh toward center). Memory tip: 'to add is to bring together.'"
+  },
+
+  // Planes & Axes
+  {
+    id: 128, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Planes & Axes",
+    question: "What are the three planes of motion and what does each divide?",
+    answer: "Sagittal plane: divides the body into left and right halves. Frontal plane: divides front (anterior) from back (posterior). Transverse plane: divides the body into upper (superior) and lower (inferior) — also called the rotational plane."
+  },
+  {
+    id: 129, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Planes & Axes",
+    question: "What movements occur in the sagittal plane? What is the axis of rotation?",
+    answer: "Frontal axis (also called transverse axis). Movements: flexion and extension of joints in the limbs and spine, anterior/posterior pelvic tilt. You see these movements from the side — squats, lunges, hip hinges all occur primarily in the sagittal plane."
+  },
+  {
+    id: 130, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Planes & Axes",
+    question: "What movements occur in the frontal plane? What is the axis of rotation?",
+    answer: "Sagittal axis. Movements: abduction and adduction of the hip or shoulder, lateral head tilt. You see these movements clearly from the front or back — side raises, lateral lunges, and Jumping Jacks all occur in the frontal plane."
+  },
+  {
+    id: 131, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Planes & Axes",
+    question: "What movements occur in the transverse plane? What is the axis of rotation?",
+    answer: "Vertical (longitudinal) axis. Movements: trunk rotation, internal/external rotation of the hip and shoulder. Example exercises: wood chop, chest fly, thoracic spine rotation mobility work."
+  },
+  {
+    id: 132, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Planes & Axes",
+    question: "Do planes of motion stay fixed in space, or do they move with the body?",
+    answer: "They move with the body. Whether you're standing, lying, or in any other position, the three planes stay relative to your body — not the room. A knee raise while standing and a knee raise while lying down both occur in the sagittal plane."
+  },
+
+  // Lower Body Muscles
+  {
+    id: 133, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Lower Body Muscles",
+    question: "What are the functions of the biceps femoris?",
+    answer: "Hip extension, external rotation of the hip or lower leg, knee flexion, and pelvic stabilization. It is the lateral hamstring — note that it externally rotates, unlike the medial hamstrings."
+  },
+  {
+    id: 134, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Lower Body Muscles",
+    question: "What are the functions of the semimembranosus and semitendinosus?",
+    answer: "Hip extension, internal rotation of the hip or lower leg, knee flexion, and pelvic stabilization. These are the medial hamstrings — they internally rotate, which is the opposite rotation direction from the biceps femoris."
+  },
+  {
+    id: 135, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Lower Body Muscles",
+    question: "What are the functions of the gluteus maximus?",
+    answer: "Hip extension (its primary function), external rotation of the hip, abduction via the upper fibers, and adduction via the lower fibers. Key muscle in deadlifts, hip thrusts, and squats. The largest and most powerful muscle in the body."
+  },
+  {
+    id: 136, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Lower Body Muscles",
+    question: "What are the functions of the gluteus medius and gluteus minimus?",
+    answer: "Hip abduction, hip internal rotation (anterior fibers), and pelvic stabilization. Critical for single-leg stability — weakness causes the pelvis to drop on the unsupported side (Trendelenburg pattern), often visible in the squat or running gait."
+  },
+  {
+    id: 137, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Lower Body Muscles",
+    question: "What is the function of the tensor fasciae latae (TFL)?",
+    answer: "Hip internal rotation, weak contribution to hip abduction, and knee external rotation (via the IT band). A small but influential muscle — overactivity is commonly linked to IT band friction syndrome."
+  },
+  {
+    id: 138, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Lower Body Muscles",
+    question: "What are the functions of the adductor group, and which additional functions vary by muscle?",
+    answer: "All: hip adduction and pelvic stabilization. Adductor longus: also hip flexion, and hip extension when the hip is beyond 70-80° of anteflexion. Adductor brevis: hip flexion and external rotation. Adductor magnus: hip flexion and hip extension when the hip is in flexion."
+  },
+  {
+    id: 139, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Lower Body Muscles",
+    question: "What are the functions of the quadriceps (quadriceps femoris)?",
+    answer: "Knee extension (all four heads: vastus medialis, lateralis, intermedius, and rectus femoris). The rectus femoris is the only quad that also crosses the hip — it performs hip flexion. The vasti act on the knee only."
+  },
+  {
+    id: 140, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Lower Body Muscles",
+    question: "What are the functions of the iliopsoas (iliacus + psoas major)?",
+    answer: "At the hip: flexion and external rotation of the leg. In the trunk: the psoas extends and laterally flexes the spine. The psoas is the only muscle connecting the lumbar spine to the leg — making it critical for posture, hip flexor tightness, and lower back health."
+  },
+  {
+    id: 141, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Lower Body Muscles",
+    question: "What are the functions of the gastrocnemius and soleus, and how do they differ?",
+    answer: "Both perform plantar flexion of the ankle (pushing through the ball of the foot). The gastrocnemius also crosses the knee and assists in knee flexion — making it a two-joint muscle. The soleus is a single-joint muscle, crossing only the ankle."
+  },
+  {
+    id: 142, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "Lower Body Muscles",
+    question: "Which lower body muscles share both a hip and knee function?",
+    answer: "Rectus femoris (hip flexion + knee extension), biceps femoris, semimembranosus, semitendinosus (all: hip extension + knee flexion), and gastrocnemius (knee flexion + ankle plantar flexion). Two-joint muscles can be put on slack or under increased stretch depending on the position of both joints."
+  },
+
+  // The Hip
+  {
+    id: 143, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "The Hip",
+    question: "What type of joint is the hip, and what movements does it allow?",
+    answer: "A ball-and-socket joint — the femoral head (ball) sits in the acetabulum (socket) of the pelvis. Multiple degrees of freedom allow: flexion, extension, abduction, adduction, internal rotation, external rotation, and circumduction."
+  },
+  {
+    id: 144, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "The Hip",
+    question: "How does pelvic position affect the lower back during hip movements?",
+    answer: "The pelvis is directly connected to the lumbar spine. Anterior pelvic tilt (top of pelvis tips forward) causes the lower back to arch (extend). Posterior pelvic tilt causes the lower back to round (flex). Controlling pelvic position during squats and hinges is essential for spinal safety."
+  },
+  {
+    id: 145, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "The Hip",
+    question: "What is hip dissociation?",
+    answer: "The ability to flex or extend the hip while keeping the torso, pelvis, and lower back stable and neutral. It is the foundation of a good hip hinge: the hip moves independently from the spine. Poor hip dissociation is often compensated by excessive lumbar flexion or extension."
+  },
+  {
+    id: 146, section: "2", chapter: "2.3", chapterName: "Anatomy of the Lower Body",
+    topic: "The Hip",
+    question: "What does 'proximal stiffness for distal athleticism' mean in the context of the hip?",
+    answer: "Core and pelvic stability (proximal) creates a rigid base from which the hip (distal) can move powerfully and freely. Without a stable core and pelvis, the hip cannot generate or effectively transfer force to the ground. Train the core to unlock the hip."
+  },
+
+  // ── SECTION 2 · CHAPTER 2.5.1 · The Hinge (RDL) ───────────────────────
+  // ---- Hinge Basics ----
+  {
+    id: 186, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Basics",
+    question: "What is the hinge movement and what does it primarily train?",
+    answer: "A hip-dominant movement that primarily trains the posterior chain. It uses horizontal hip motion with minimal knee movement and a neutral spine, in contrast to the more vertical, quad-dominant squat."
+  },
+  {
+    id: 187, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Basics",
+    question: "Name the main hinge (hip hinge) variations.",
+    answer: "Conventional deadlift, sumo deadlift, good morning, hip extension, trap bar deadlift, snatch grip deadlift, deficit deadlift, and staggered stance deadlift. All share the hip hinge pattern; differences come down to nuanced cues."
+  },
+  {
+    id: 188, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Basics",
+    question: "Why is the Romanian deadlift (RDL) used as the teaching example for the hinge?",
+    answer: "It is the purest hip hinge that can still be loaded maximally, so it clearly demonstrates the distinction between a squat and a hinge."
+  },
+  {
+    id: 189, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Basics",
+    question: "What two key factors distinguish how hinge variations challenge the client?",
+    answer: "The degree of knee movement and the load on the lower back (determined by bar position)."
+  },
+  {
+    id: 190, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Basics",
+    question: "What role does knee movement play in the hinge?",
+    answer: "Minimizing knee movement maximizes posterior chain engagement and force. The amount of knee bend depends on the client's ROM and the goal. The RDL is a pure hinge with no knee movement; a conventional deadlift initiates with slight knee bend (the strongest position) and finishes with the hip."
+  },
+  {
+    id: 191, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Basics",
+    question: "How does bar position affect the load on the lower back across hinge variations?",
+    answer: "Keeping the bar close to the body creates the shortest moment arm. The trap bar deadlift puts the bar in line with the body (least back load), the RDL leans the torso further forward (more load), and the good morning rests the bar on the shoulders (most lower-back strength demand)."
+  },
+  {
+    id: 192, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Basics",
+    question: "Why does back position matter as a limiting factor in the hinge?",
+    answer: "Maintaining back position can cap the weight or reps you can perform. That is ideal if it aligns with your intent, but it can restrict hip loading if there is a big gap between strong hips and weaker isometric back strength."
+  },
+  {
+    id: 193, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Basics",
+    question: "How can grip be prevented from limiting deadlift performance?",
+    answer: "Use a mixed grip (one hand over, one under), a hook grip (thumbs clamped under the fingers), or straps. Research shows straps improve both the absolute load lifted and execution quality. Train grip strength separately only if it is a specific goal, since the demand far exceeds daily needs."
+  },
+
+  // ---- RDL Coaching ----
+  {
+    id: 194, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "RDL Coaching",
+    question: "What are the checkpoints for the RDL starting position?",
+    answer: "Neutral torso with 360-degree tension (ribs over pelvis, slight lower-back arch); neutral thoracic spine (shoulder blades against ribs, not moving); bar close to body (constant armpit angle, lat tension, bar on thighs); foot position (pressure across three contact points); and knees slightly bent with vertical shins."
+  },
+  {
+    id: 195, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "RDL Coaching",
+    question: "What are the checkpoints for the RDL end position?",
+    answer: "Neutral torso with 360-degree tension; bar close to the body, touching the shins and over the middle of the foot; neutral thoracic spine (shoulders low, upper back stable); foot position with three contact points (a slight shift toward the heel is okay); and vertical shins."
+  },
+  {
+    id: 196, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "RDL Coaching",
+    question: "Why do the RDL start and end checkpoints overlap, and why is that useful?",
+    answer: "A bar kept close helps maintain pressure across the whole foot, and a neutral torso with an engaged upper back makes it easier to keep the bar close. This overlap forces clients into good positions, letting them spend energy moving the bar. Coach the part that is easiest to perform or most impactful in the kinetic chain."
+  },
+  {
+    id: 197, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "RDL Coaching",
+    question: "What are the added coaching points for the eccentric and concentric phases of the RDL?",
+    answer: "Pure horizontal hip movement: hips travel straight back on the way down and straight forward on the way up, with ribs aligned over the pelvis. On the concentric phase, cue pushing the ground away with the heel rather than pulling the bar up. Maintain 360-degree tension, foot pressure, and vertical shins throughout."
+  },
+  {
+    id: 198, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "RDL Coaching",
+    question: "What three factors determine the correct depth in the RDL end position?",
+    answer: "Hamstring flexibility / hip mobility (movement restricted at the end of hip range), proximal stiffness (harder to hold the torso as the back nears horizontal), and hip strength (a skill-based quality, so heavy loads may not reach the depth achieved with lighter loads if untrained through full ROM)."
+  },
+  {
+    id: 199, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "RDL Coaching",
+    question: "Why should the shins stay vertical in the RDL?",
+    answer: "Shin angle controls foot pressure. If the knees bend too much, pressure shifts toward the forefoot; if the legs straighten too much, pressure shifts toward the heel. Vertical shins keep pressure balanced across the foot."
+  },
+
+  // ---- Hinge Energy Leaks ----
+  {
+    id: 200, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Energy Leaks",
+    question: "What are the five energy leaks in the hip hinge?",
+    answer: "Hyperextension, hyperflexion, excessive knee bending or extending, hip shift, and the bar moving away from the body. Each can be coached with verbal (imagery), visual (demonstration), and kinesthetic cues."
+  },
+  {
+    id: 201, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Energy Leaks",
+    question: "What is hyperextension in the RDL and how do you analyze it?",
+    answer: "Core tension is lost and the lower back over-arches out of neutral. It can happen at any point, so analyze the phases in order: starting position, end position, eccentric, then concentric, and don't coach a later phase if an earlier one is wrong. Cue a 'taut string from pubic bone to sternum' that neither breaks nor goes slack."
+  },
+  {
+    id: 202, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Energy Leaks",
+    question: "What is the difference between a flexion moment and a flexion arm in the RDL?",
+    answer: "A flexion moment is losing the neutral position mid-movement (the back rounds unintentionally) and should be coached against with more core tension. A flexion arm is a deliberate, fixed slightly-rounded back used by advanced powerlifters to shorten the moment arm. We coach neutral first, then focus on preventing flexion moments."
+  },
+  {
+    id: 203, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Energy Leaks",
+    question: "Why must the knee stay fixed during the RDL, and what is the problem with knee hyperextension?",
+    answer: "Hamstrings are bi-articular and need a fixed point (the knee) to exert maximum force at the hip; the knee angle should change only as the hip travels back, with no forward knee movement. Knee hyperextension shortens the hamstrings over two joints and shifts the center of gravity backward, both of which make a neutral hip and lower-back position harder to hold."
+  },
+  {
+    id: 204, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Energy Leaks",
+    question: "What is a hip shift in the RDL and what causes it?",
+    answer: "Uneven loading between the left and right leg makes the hip deviate to one side of the midline, disrupting coordination. Detect it by watching the feet and legs. In the eccentric phase it usually stems from mobility or structure; in the concentric phase from a strength difference. Address it with even pressure cues, unilateral work, and mobility."
+  },
+  {
+    id: 205, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Energy Leaks",
+    question: "Why must the bar stay close to the body, and which muscle is key?",
+    answer: "Keeping the bar close ensures a vertical bar path and keeps the center of gravity over the middle of the base of support. The latissimus dorsi is key. Cues include 'protect your armpits,' 'hold a newspaper under your armpits,' 'tuck your shoulder blades into your back pockets,' and 'bend the bar around your thighs.'"
+  },
+
+  // ---- Hinge Progression ----
+  {
+    id: 206, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Progression",
+    question: "What is the goal and order of the RDL progression sequence?",
+    answer: "Teach a pure hip hinge while gradually increasing lower-back load and addressing energy leaks around the torso, hips, and knees, moving from constrained to free. Order: banded PVC waiter's bow with calves on a box, PVC waiter's bow with calves on a box, DB RDL with calves on a box, DB or barbell RDL, and an optional 45-degree hip extension."
+  },
+  {
+    id: 207, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Progression",
+    question: "What does the banded PVC waiter's bow with calves against a box enforce?",
+    answer: "Three points at once: a neutral spine (PVC pipe held at three contact points on the back), hip flexion without knee flexion (the box plus the band), and a backward movement direction (the elastic band guides the hips back into horizontal motion)."
+  },
+  {
+    id: 208, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Progression",
+    question: "What changes at the PVC waiter's bow (calves against a box) stage?",
+    answer: "The resistance band is removed for a more autonomous movement. The body must now initiate the horizontal hip movement on its own while keeping the shins and spine stable, still guided by the PVC pipe and the box."
+  },
+  {
+    id: 209, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Progression",
+    question: "What is introduced at the DB RDL with calves against a box stage?",
+    answer: "The PVC pipe is swapped for weight, challenging the neutral spine under load. The box stays to keep the shins vertical, and the focus adds 360-degree core tension and lat engagement to complement the hip movement."
+  },
+  {
+    id: 210, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Progression",
+    question: "What is the focus of the DB or barbell RDL stage?",
+    answer: "Challenge the movement with heavier load (a barbell is ideal). The emphasis shifts to keeping the bar close to the body and developing keen awareness of shin position, aiming to keep the shins vertical throughout."
+  },
+  {
+    id: 211, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Progression",
+    question: "What is the optional 45-degree hip extension used for in the progression?",
+    answer: "It places the client in a fixed position that requires pure hip movement, using external feedback from hand placement to reinforce a neutral spine."
+  },
+
+  // ---- Hinge Muscles Worked ----
+  {
+    id: 212, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Muscles Worked",
+    question: "What are the target (prime mover) muscles in the hinge / RDL?",
+    answer: "Gluteus maximus and hamstrings. As the prime movers they produce the main force for hip extension, which is why the hinge is a posterior-chain movement."
+  },
+  {
+    id: 213, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Muscles Worked",
+    question: "What is the synergist muscle in the hinge / RDL?",
+    answer: "Adductor magnus. It assists the prime movers in hip extension in a supporting role."
+  },
+  {
+    id: 214, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Muscles Worked",
+    question: "What are the stabilizer muscles in the hinge / RDL?",
+    answer: "Transversus abdominis, erector spinae, pelvic diaphragm, quadratus lumborum, quadriceps femoris, and multifidus. They contract to hold the trunk, pelvis, and knee steady so the prime movers can drive the hip."
+  },
+  {
+    id: 215, section: "2", chapter: "2.5.1", chapterName: "The Hinge",
+    topic: "Hinge Muscles Worked",
+    question: "How do the target muscles differ between the squat and the hinge?",
+    answer: "Both target the gluteus maximus, but the squat also targets the quadriceps femoris (more vertical, knee-dominant), while the hinge targets the hamstrings (horizontal, hip-dominant posterior chain)."
+  },
+
+  // ── SECTION 2 · CHAPTER 2.5.2 · The Squat ─────────────────────────────
+  // ---- Squat Basics ----
+  {
+    id: 147, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Basics",
+    question: "What distinguishes the different squat variations from one another?",
+    answer: "The bar position (the load). From the low bar back squat to the front squat there is a clear progression, from the bar placed low on the back to forward on the chest. This changes the location of the center of gravity and how the torso and hips must position to keep it over the base of support."
+  },
+  {
+    id: 148, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Basics",
+    question: "How does the squat differ biomechanically from the hip hinge?",
+    answer: "In the squat the knee moves more, and the hip and knee move simultaneously, producing a more vertical motion than the horizontal hinge. This emphasizes the quadriceps and glutes with less engagement of the posterior chain."
+  },
+  {
+    id: 149, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Basics",
+    question: "Name the main squat variations.",
+    answer: "Low bar back squat, high bar back squat, front squat, overhead squat, safety bar squat, and goblet squat. They differ by bar (load) position."
+  },
+  {
+    id: 150, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Basics",
+    question: "How does bar position affect the squat?",
+    answer: "It shifts the center of gravity, which changes the torso and hip angles needed to keep that center of gravity over the middle of the base of support. It also changes the moment arm on the joints. Front squats generally place less stress on the lower back."
+  },
+  {
+    id: 151, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Basics",
+    question: "Why might the front squat be called the 'superior' squat, and what is the caveat?",
+    answer: "It carries lower risk for the lower back and more muscle activation around the knee. The caveat: studies are mixed and bar position doesn't significantly affect muscle activation, so the choice is somewhat arbitrary. An exercise is just a tool to challenge the body in a specific way."
+  },
+  {
+    id: 152, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Basics",
+    question: "Why can't muscle activation data prove an exercise is better for growth?",
+    answer: "Muscle activation only indicates how muscles participate in a movement. It does not directly correlate with force generation or prove training effectiveness for muscle growth, so conclusions about strength capacity or stimulus drawn from activation alone are unreliable."
+  },
+  {
+    id: 153, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Basics",
+    question: "What four lenses determine a client's optimal squat depth?",
+    answer: "Mobility (ROM at ankle, knee, hip), sport (the rules and demands), the client's personal goals, and the strength-training principle 'you won't strengthen what you don't train.' The general aim is to squat as deep as possible while maintaining tension and position."
+  },
+  {
+    id: 154, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Basics",
+    question: "What is the typical minimum squat depth in sport, and how do powerlifting and weightlifting differ?",
+    answer: "Generally just below 90 degrees / below parallel, or hip crease below the top of the knee. Powerlifting uses a controlled squat to the minimum depth. Olympic weightlifting demands maximum depth and mobility, since every extra centimeter helps drop under a rising bar."
+  },
+
+  // ---- Front Squat Coaching ----
+  {
+    id: 155, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Front Squat Coaching",
+    question: "What are the three main front squat grips?",
+    answer: "Zombie / no hands; crossover / hands inside shoulders; and Olympic full grip / hands outside shoulders. Grip choice depends on the client's goals and mobility."
+  },
+  {
+    id: 156, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Front Squat Coaching",
+    question: "Pros and cons of the zombie (no hands) front squat grip?",
+    answer: "Pro: teaches perfect posture and strengthens the upper back. Con: limited to light weights initially, the bar easily falls off the shoulders, and it isn't feasible for anyone who can't maintain a fully upright squat position."
+  },
+  {
+    id: 157, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Front Squat Coaching",
+    question: "Pros and cons of the crossover (hands inside shoulders) grip?",
+    answer: "Pro: stable bar position, low mobility demand, universally accessible, allows immediate heavy loading. Con: compromises optimal upper back tension, increases thoracic flexion risk, and makes small bar shifts hard to control."
+  },
+  {
+    id: 158, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Front Squat Coaching",
+    question: "Pros and cons of the Olympic full grip (hands outside shoulders)?",
+    answer: "Pro: maximum stability and a multifunctional position (good for weightlifting/CrossFit). Con: requires extensive wrist, shoulder, and upper back mobility, which often leads to discomfort and limits heavy loading."
+  },
+  {
+    id: 159, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Front Squat Coaching",
+    question: "What are the checkpoints for the front squat starting position (top)?",
+    answer: "Upper back tension with slight extension (proud posture, elbows near horizontal); bar placement just behind the shoulders lightly touching the throat; neutral torso with 360-degree tension (ribs over hips, slight lower-back arch); and foot positioning with pressure across all three contact points."
+  },
+  {
+    id: 160, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Front Squat Coaching",
+    question: "What two checkpoints are emphasized at the bottom (end position) beyond the top checkpoints?",
+    answer: "Hips actively pushed between the heels (keeps the bar over midfoot for maximum depth), and knee position tracking over the foot between the little and big toe. Upper back tension, bar placement, neutral torso, and foot pressure still apply."
+  },
+  {
+    id: 161, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Front Squat Coaching",
+    question: "What should you coach during the eccentric and concentric phases?",
+    answer: "Knee and hip move together (not disjointed) with even foot pressure; the bar travels vertically over the midfoot. On the way up, drive vertically as knees, hips, and ankles extend together while keeping a proud chest and pushing the ground away."
+  },
+  {
+    id: 162, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Front Squat Coaching",
+    question: "What is the universal coaching guideline that addresses individual differences in squat technique?",
+    answer: "Keep the center of gravity over the midfoot. Because people have different ankle, knee, and hip angles, consistently cueing the bar/CoG over midfoot helps each client find their own ideal position."
+  },
+
+  // ---- Squat Mobility ----
+  {
+    id: 163, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Mobility",
+    question: "Which three areas most commonly limit squat mobility?",
+    answer: "The ankle, the hip, and the upper back. A limitation at any joint forces compensation elsewhere, since all joints work together to keep the load over the midfoot. Key distinction: mobility issues are trainable, structural limitations must be worked around."
+  },
+  {
+    id: 164, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Mobility",
+    question: "How does limited ankle dorsiflexion show up in the squat?",
+    answer: "The heel may lift or collapse inward and the toes may rotate out. Restricted knee flexion forces the hip to bend more, pushing the bar forward or preventing depth, and clients may hyperextend the lower back to balance. The knee needs to travel far over the toes."
+  },
+  {
+    id: 165, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Mobility",
+    question: "How does limited hip mobility or structure affect the squat?",
+    answer: "You must rotate the thigh in the socket to set the hips between the heels. If mobility or structure keeps the hip farther from the heels, the client leans forward, which reduces vertical force and increases lower-back strain via a longer moment arm."
+  },
+  {
+    id: 166, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Mobility",
+    question: "What is the upper back's role in the squat, and which variation demands the most?",
+    answer: "The upper back positions the bar over the midfoot. The front squat demands the most upper back involvement; the low bar back squat the least. Thoracic rounding shifts the bar forward and (in the front squat) drops the elbows, requiring more compensation."
+  },
+  {
+    id: 167, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Mobility",
+    question: "What is the 5-inch wall test, and what do the results mean?",
+    answer: "With the foot about 5 inches from a wall/rack, the knee drives forward to touch it while the heel stays flat. Pass = no issue. A stretch at the back (soleus) = mobilize with deep positions and strength work. A pinch or pain at the front = likely structural; use band distraction stretches. It separates trainable mobility from structure."
+  },
+
+  // ---- Energy Leaks ----
+  {
+    id: 168, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Energy Leaks",
+    question: "What are the six energy leaks in the front squat?",
+    answer: "Hyperextension, stripper squat, knee valgus, hip shift, upper back hyperflexion, and butt wink. Each is visible from different angles and can be coached with verbal (imagery), visual (demonstration), and kinesthetic cues."
+  },
+  {
+    id: 169, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Energy Leaks",
+    question: "What is hyperextension in the squat and how do you cue it?",
+    answer: "Ribs rise and the lower back arches (anterior pelvic tilt), often as the client pushes the hips back first or leads with the head/chest on the way up. Cue a 'taut string from pubic bone to sternum' that neither breaks nor slackens, and 'push the ground away' through the whole foot."
+  },
+  {
+    id: 170, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Energy Leaks",
+    question: "What is a stripper squat and what causes it?",
+    answer: "The knees extend first so the hips rise prematurely, pushing the bar forward before the hips come through. Causes include the bar in front of midfoot, a posterior/anterior chain strength imbalance, Lombard's paradox (hamstrings + quads firing together), and heel-heavy foot pressure. Cue 'buttocks slide along a pole' and move vertically."
+  },
+  {
+    id: 171, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Energy Leaks",
+    question: "What is knee valgus, and when is it acceptable?",
+    answer: "The knee moves inward across the foot's midline (adduction + internal rotation). A slight dynamic valgus can create a strong hip position for force, so it isn't always a problem. For beginners, coach against it by guiding foot and hip tension; the knee follows. Cue 'tear a newspaper apart under your feet' or use a band (RNT)."
+  },
+  {
+    id: 172, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Energy Leaks",
+    question: "What is a hip shift in the squat?",
+    answer: "Uneven pressure between the left and right leg shifts the hips to one side, often with valgus of one knee. Because the squat needs more ankle/hip ROM than the RDL, mobility and structure matter more. A rotational limitation can make the shift a compensation to create space. Cue even foot pressure and assess L/R mobility."
+  },
+  {
+    id: 173, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Energy Leaks",
+    question: "What is upper back hyperflexion and how is it coached?",
+    answer: "The upper back rounds and the bar drifts forward as the erector spinae and trapezius lose the isometric tension that holds the lever (hip to bar). Cue a proud chest with steady elbows, 'push the bar inward,' and use zombie front squats or paused reps long-term."
+  },
+  {
+    id: 174, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Energy Leaks",
+    question: "What is a butt wink?",
+    answer: "At the bottom of the squat the pelvis tilts posteriorly and the lumbar spine flexes, so the 'butt tucks under' and core stiffness is lost. Coach a deep brace ('as if I'm about to punch your stomach') and stop at the depth where a neutral spine and tension are maintained; a med ball under the hips can mark that depth."
+  },
+
+  // ---- Squat Progression ----
+  {
+    id: 175, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Progression",
+    question: "What is the goal and logic of the front squat progression sequence?",
+    answer: "Teach maximum squat depth while maintaining core tension. It starts highly constrained with lots of direct feedback and progresses toward the standard squat, where the client independently finds optimal depth and maintains core stability. Order: banded goblet box squat to paused goblet box squat to paused goblet squat to front squat."
+  },
+  {
+    id: 176, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Progression",
+    question: "What does the banded goblet box squat enforce, and how?",
+    answer: "Three things: core stiffness (front-loaded dumbbell/kettlebell), abductor activation and knee position (mini band pulling the knees in via RNT, so the client pushes out), and vertical descent plus depth (the box guides hips between the heels and gives clear depth feedback)."
+  },
+  {
+    id: 177, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Progression",
+    question: "What changes at the paused goblet box squat and paused goblet squat stages?",
+    answer: "Paused goblet box squat: remove the band (hip stabilizers now controlled), keep the box for depth, and assess whether depth can safely increase. Paused goblet squat: remove the box and pause where it used to be, building awareness of a stable bottom; have the client contrast a correct position with an exaggerated butt wink."
+  },
+  {
+    id: 178, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Squat Progression",
+    question: "What is the focus of the final front squat stage of the progression?",
+    answer: "Choose an appropriate grip and apply everything from the goblet progressions while maintaining proper bar position. Creating tension is harder with a bar than a kettlebell, so take a deep breath, build 360-degree core tension, keep a proud chest, and lower the hips between the heels to an achievable depth."
+  },
+
+  // ---- Muscles Worked ----
+  {
+    id: 179, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Muscles Worked",
+    question: "What is a target (prime mover / agonist) muscle?",
+    answer: "The muscle the exercise is built to train. It produces the main force that drives the movement. In the squat the targets are the gluteus maximus and quadriceps femoris."
+  },
+  {
+    id: 180, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Muscles Worked",
+    question: "What is a synergist muscle?",
+    answer: "A muscle that assists the target by contributing to the same joint action in a supporting role. It helps produce the movement but is not the main driver."
+  },
+  {
+    id: 181, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Muscles Worked",
+    question: "What is a stabilizer muscle?",
+    answer: "A muscle that contracts, often isometrically, to hold a joint or body segment steady so the prime movers can work. It does not create the movement itself; it keeps posture and the load in position."
+  },
+  {
+    id: 182, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Muscles Worked",
+    question: "What are the target muscles in the squat?",
+    answer: "Gluteus maximus and quadriceps femoris."
+  },
+  {
+    id: 183, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Muscles Worked",
+    question: "What are the synergist muscles in the squat?",
+    answer: "Hamstrings, gastrocnemius, and soleus."
+  },
+  {
+    id: 184, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Muscles Worked",
+    question: "What are the stabilizer muscles in the squat?",
+    answer: "Abdominals, erector spinae, upper trapezius, anterior deltoid, and pelvic diaphragm."
+  },
+  {
+    id: 185, section: "2", chapter: "2.5.2", chapterName: "The Squat",
+    topic: "Muscles Worked",
+    question: "Is the latissimus dorsi a working muscle in the squat?",
+    answer: "Not as a prime mover or synergist. It plays a minor stabilizing role, helping brace the torso and control the bar, which is more pronounced under heavy load and in the back squat (where the lats create a tight shelf for the bar). Standard squat muscle classifications usually don't list it among the main stabilizers."
   }
 ];
 
@@ -1358,7 +1956,7 @@ const FLASHCARDS = [
 // ─────────────────────────────────────────────
 const TOPICS_BY_SECTION = {
     '1': ['All', 'Movement Science', 'Anatomy', 'Neuromuscular System', 'Breathing & Stability', 'Motor Learning & Coaching', 'Core Training'],
-    '2': ['All', 'Forces', 'Types of Motion', 'Center of Gravity & Balance', 'Moment & Torque', 'Levers', 'Strength Training']
+    '2': ['All', 'Forces', 'Types of Motion', 'Center of Gravity & Balance', 'Moment & Torque', 'Levers', 'Strength Training', 'Movement Terms', 'Planes & Axes', 'Lower Body Muscles', 'The Hip', 'Hinge Basics', 'RDL Coaching', 'Hinge Energy Leaks', 'Hinge Progression', 'Hinge Muscles Worked', 'Squat Basics', 'Front Squat Coaching', 'Squat Mobility', 'Energy Leaks', 'Squat Progression', 'Muscles Worked']
 };
 const SECTION_NAMES = {
     '1': 'Core Business',
