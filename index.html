@@ -358,6 +358,28 @@
             flex: 1;
         }
 
+        /* ─── CARD IMAGE (optional, e.g. anatomy diagrams) ─── */
+        .card-image-wrap {
+            margin-top: 16px;
+            text-align: center;
+        }
+
+        .card-image {
+            max-width: 100%;
+            max-height: 260px;
+            border-radius: 8px;
+            background: var(--white);
+            display: inline-block;
+        }
+
+        .card-image-credit {
+            font-size: 10px;
+            color: var(--gray-muted);
+            margin-top: 5px;
+            letter-spacing: 0.2px;
+        }
+        .card-image-credit a { color: var(--gray-muted); }
+
         /* ─── ACTIONS ─── */
         .action-row {
             display: flex;
@@ -2741,6 +2763,68 @@ const FLASHCARDS = [
     answer: "Specific Adaptation to Imposed Demand: only what you fatigue or exhaust will change. The more specific the fatiguing stimulus, the more targeted the body's deployment of resources and the resulting supercompensation."
   },
 
+  // ── SECTION 4 · CHAPTER 4.2.3 · Lifestyle & the Training Process ───────
+  {
+    id: 621, section: "4", chapter: "4.2.3", chapterName: "Lifestyle & Training",
+    topic: "Lifestyle & Fatigue",
+    question: "What is the fitness-fatigue model?",
+    answer: "A model of the relationship between fatigue, recovery, and adaptation. Fitness is your potential — the performance you could deliver with no fatigue. Actual performance = fitness minus fatigue. Notably, potential performance rises before fatigue has fully disappeared."
+  },
+  {
+    id: 622, section: "4", chapter: "4.2.3", chapterName: "Lifestyle & Training",
+    topic: "Lifestyle & Fatigue",
+    question: "What is fatigue, and in which two areas can it occur?",
+    answer: "Fatigue is a state of increased sensitivity to stress and decreased performance. It occurs in two areas: central (the central nervous system — brain and spinal cord) and peripheral (the peripheral nervous system — the neuromuscular junction and metabolic/biochemical changes within the muscle)."
+  },
+  {
+    id: 623, section: "4", chapter: "4.2.3", chapterName: "Lifestyle & Training",
+    topic: "Lifestyle & Fatigue",
+    question: "What is central fatigue and how quickly does it recover?",
+    answer: "An inadequate drive of motor output (mostly in the brain) that reduces performance or stops activity. It occurs mainly during long-duration efforts with a large metabolic component, not short intense ones — and it recovers within about 10-20 minutes after resistance training."
+  },
+  {
+    id: 624, section: "4", chapter: "4.2.3", chapterName: "Lifestyle & Training",
+    topic: "Lifestyle & Fatigue",
+    question: "What is peripheral fatigue?",
+    answer: "A reduction in the effectiveness of the neuromuscular junction plus metabolic and biochemical changes within the muscle (metabolic fatigue and muscle damage). Muscle damage can persist a long time — up to 24 hours after an intense session — impairing muscle activation and performance."
+  },
+  {
+    id: 625, section: "4", chapter: "4.2.3", chapterName: "Lifestyle & Training",
+    topic: "Lifestyle & Fatigue",
+    question: "Which type of fatigue mainly hinders performance?",
+    answer: "Peripheral, not central. Physical fatigue is primarily peripheral (metabolic fatigue and muscle damage), while central fatigue is short-lived. The CNS can even become more active as peripheral fatigue increases."
+  },
+  {
+    id: 626, section: "4", chapter: "4.2.3", chapterName: "Lifestyle & Training",
+    topic: "Lifestyle & Fatigue",
+    question: "Why does muscle activation drop with muscle damage or metabolic fatigue?",
+    answer: "The muscle spindles and Golgi tendon organs send altered information to the brain, reducing muscle activation. This is protective — it stops you heavily loading a muscle that can't handle the stress, lowering injury risk (though it also reduces coordination and performance)."
+  },
+  {
+    id: 627, section: "4", chapter: "4.2.3", chapterName: "Lifestyle & Training",
+    topic: "Lifestyle & Fatigue",
+    question: "How does perception of fatigue affect performance?",
+    answer: "Because training is voluntary muscle contraction, your perceived physical state shapes your confidence and the effort you'll exert. Fight-or-flight lowers perceived fatigue and raises performance; too little sleep lowers confidence and muscle activation without a direct physiological deficiency. The brain is largely influenced by perception, which motivation can shift."
+  },
+  {
+    id: 628, section: "4", chapter: "4.2.3", chapterName: "Lifestyle & Training",
+    topic: "Lifestyle & Fatigue",
+    question: "How does chronic life stress limit morphological adaptation?",
+    answer: "High stress keeps people in a sympathetic state longer and more often, so anabolic processes are less active. They eat and digest less, and sleep less and worse, giving recovery processes less time to work — limiting tissue building. The result can be no supercompensation, or reduced capacity for the next session."
+  },
+  {
+    id: 629, section: "4", chapter: "4.2.3", chapterName: "Lifestyle & Training",
+    topic: "Lifestyle & Fatigue",
+    question: "What is the difference between training and performing, regarding lifestyle?",
+    answer: "Performing is a snapshot — with the right mindset you can push to your limits even without sleep or food. But training hard only sets adaptation in motion; the yield depends on anabolic recovery afterward (local repair of muscle, bone, and tendon). Training hard while under-recovered does not guarantee results."
+  },
+  {
+    id: 630, section: "4", chapter: "4.2.3", chapterName: "Lifestyle & Training",
+    topic: "Lifestyle & Fatigue",
+    question: "When does lifestyle (sleep, nutrition, recovery) matter most for a client?",
+    answer: "The more intense the stimulus, the more it matters. Occasional poor sleep or nutrition is fine if the client believes in their ability, but as training advances and progressive overload demands stronger stimuli, recovery becomes a limiting factor. This is why top athletes only eat, train, and sleep — for beginners it isn't yet critical."
+  },
+
   // ── SPECIAL SECTION · MUSCLES & THEIR FUNCTION ──────────────────────────────
   // ── 3.1 · Chest & Shoulders ──
   {
@@ -2960,7 +3044,7 @@ const TOPICS_BY_SECTION = {
     '1': ['All', 'Movement Science', 'Anatomy', 'Neuromuscular System', 'Breathing & Stability', 'Motor Learning & Coaching', 'Core Training'],
     '2': ['All', 'Forces', 'Types of Motion', 'Center of Gravity & Balance', 'Moment & Torque', 'Levers', 'Strength Training', 'Movement Terms', 'Planes & Axes', 'Lower Body Muscles', 'The Hip', 'Hinge Basics', 'RDL Coaching', 'Hinge Energy Leaks', 'Hinge Progression', 'Hinge Muscles Worked', 'Squat Basics', 'Front Squat Coaching', 'Squat Mobility', 'Energy Leaks', 'Squat Progression', 'Muscles Worked'],
     '3': ['All', 'Biomechanics Recap', 'Types of Resistance', 'Resistance Curve', 'Strength Applications', 'Scapular Movements', 'Shoulder Girdle', 'Push & Pull Muscles', 'Scapulohumeral Rhythm', 'Undesired Rhythms', 'External Focus', 'Coaching Interventions', 'Horizontal Patterns', 'Horizontal Push', 'Horizontal Pull', 'Vertical Patterns', 'Vertical Push', 'Vertical Pull'],
-    '4': ['All', 'Stress & GAS Model', 'Adaptation & Training Principles'],
+    '4': ['All', 'Stress & GAS Model', 'Adaptation & Training Principles', 'Lifestyle & Fatigue'],
     'muscles': ['All', 'Chest & Shoulders', 'Back', 'Arms', 'Core', 'Glutes & Hips', 'Legs']
 };
 const SECTION_NAMES = {
@@ -3299,6 +3383,13 @@ function renderCard() {
 
     const card = deck[currentIndex];
     const answerLines = card.answer.split('\n').map(l => `<p style="margin-bottom:6px">${l}</p>`).join('');
+    // Optional image on the answer face. If it fails to load, the whole figure
+    // hides itself (onerror) so a wrong/missing URL never shows a broken icon.
+    const imageHTML = card.image ? `
+                        <figure class="card-image-wrap">
+                            <img class="card-image" src="${card.image}" alt="${card.imageAlt || card.chapterName} diagram" loading="lazy" onerror="this.closest('.card-image-wrap').style.display='none'">
+                            <figcaption class="card-image-credit">${card.imageCredit || 'Image: Wikimedia Commons'}</figcaption>
+                        </figure>` : '';
 
     container.innerHTML = `
         <div class="card-wrap">
@@ -3315,6 +3406,7 @@ function renderCard() {
                         <div class="card-topic-tag">${card.topic}</div>
                         <div class="card-label">Answer</div>
                         <div class="card-answer">${answerLines}</div>
+                        ${imageHTML}
                     </div>
                 </div>
             </div>
